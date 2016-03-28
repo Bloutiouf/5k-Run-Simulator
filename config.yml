@@ -1,0 +1,4 @@
+development:
+  masterPassword: password
+  port: 3000
+  updateInterval: 0.4

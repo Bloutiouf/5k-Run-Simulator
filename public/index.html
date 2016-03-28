@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>5k Run Simulator</title>
+		<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
+		<link rel="stylesheet" href="style.css"/>
+	</head>
+	<body>
+		<div id="game"></div>
+		<div id="names"></div>
+		<div id="counter"></div>
+		<div id="rank"></div>
+		<form id="name">
+			<div class="top">
+				<div>Pick a name</div>
+				<div><input id="nameInput" type="text" name="name"/></div>
+			</div>
+			<div class="bottom">
+				<div><button type="button" id="change-colors">Change colors</button></div>
+				<div><button type="submit">Join the run</button></div>
+			</div>
+		</form>
+		<div id="message"></div>
+   		<script src="engine.io.js"></script>
+		<script src="PFloat.js"></script>
+		<script src="data.js"></script>
+		<script src="Palette.js"></script>
+		<script src="Sprite.js"></script>
+		<script src="Animation.js"></script>
+		<script src="NonPlayer.js"></script>
+		<script src="Player.js"></script>
+		<script src="game.js"></script>
+	</body>
+</html>
